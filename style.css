@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&display=swap");
+
+* {
+	box-sizing: border-box;
+	font-family: "Poiret One", sans-serif;
+}
+
+header,
+main,
+footer {
+	width: 70%;
+	margin: 15px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header,
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+h1 {
+	font-family: "Pacifico", cursive;
+	font-size: 38px;
+	background: #121fcf;
+	background: linear-gradient(to right, #121fcf 0%, #cf1512 100%);
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+header img {
+	height: 70px;
+}
+
+ul {
+	width: 70%;
+	list-style: none;
+	display: flex;
+	gap: 10px;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+li{
+	background-color: #dcbfe4;
+	padding: 17px;
+	border-radius: 1em;
+	border: 1px solid #565454;
+}
+
+ul li a {
+	text-decoration: none!important;
+	color: #4d57e9;
+	/* а вот тут стили для кнопок + добавь эффект наведения */
+}
+
+#photo {
+	width: 70%;
+	margin: 30px auto;
+	border: #8087e9 2px dashed;
+	border-radius: 1em;
+}
+
+footer p {
+	font-size: 12px;
+}
+
+/* 
+Ниже пиши стили для фильтров в следующем формате:
+.filter1 {} 
+.filter2 {} 
+и т.д. 
+*/
+.filter1{
+	filter: blur(1px) invert(70%);
+}
+.filter2{
+	filter: drop-shadow(1px 3px 2px #4747475b);
+}
+/* Если все фильтры уже придумал, не забудь настроить красивые анимации 
+и режим адаптивности для нашего проекта :) */
