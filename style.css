@@ -76,10 +76,28 @@ footer p {
 и т.д. 
 */
 .filter1{
-	filter: blur(1px) invert(70%);
+	filter: blur(1px) invert(10%) hue-rotate(10deg);
 }
 .filter2{
-	filter: drop-shadow(1px 3px 2px #4747475b);
+	filter: drop-shadow(1px 3px 2px #4747475b) grayscale(0.7);
+}
+.filter3{
+	filter: brightness(110%) opacity(0.7);
+}
+.filter4{
+	filter: saturate(140%) contrast(120%) drop-shadow(7px 5px 10px #5c26153d);
+}
+.filter5{
+	filter: sepia(80%) brightness(0.9);
+}
+.filter6{
+	filter: grayscale(0.3) brightness(1.6) hue-rotate(276deg);
+}
+.filter7{
+	filter: opacity(0.8) brightness(0.9) blur(1.3px) contrast(130%);
+}
+.filter8{
+	filter: invert(6) drop-shadow(10px 10px 20px #7f9db6d6) contrast(120%) hue-rotate(130deg);
 }
 /* Если все фильтры уже придумал, не забудь настроить красивые анимации 
 и режим адаптивности для нашего проекта :) */
